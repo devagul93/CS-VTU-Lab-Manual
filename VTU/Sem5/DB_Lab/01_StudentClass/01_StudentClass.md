@@ -228,7 +228,7 @@ mysql> select *from enrolled;
 	from student s,class c,faculty f,enrolled e
 	where  s.snum=e.snum      and
 	       e.cname=c.cname    and
-       	       s.level='jr'       and
+       	       s.lev='jr'       and
 	       f.fname='Harshith' and
 	       f.fid=c.fid;
 +-------+
